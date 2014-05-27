@@ -1,0 +1,16 @@
+doctype html
+
+html
+  head
+    title PkgSrc Packages
+  body
+    h1= category
+    a(href="../") ../
+    if category == 'All'
+      br
+      a(href="pkg_summary.gz") pkg_summary.gz
+      br
+      a(href="pkg_summary.bz2") pkg_summary.bz2
+    each item, filename in items
+      br
+      a(href="#{filename}") #{filename}
