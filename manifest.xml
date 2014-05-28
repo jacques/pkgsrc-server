@@ -1,7 +1,7 @@
 <?xml version='1.0'?>
 <!DOCTYPE service_bundle SYSTEM '/usr/share/lib/xml/dtd/service_bundle.dtd.1'>
 <service_bundle type='manifest' name='export'>
-  <service name='application/pkgsrc-server' type='service' version='2'>
+  <service name='application/pkgsrc-server' type='service' version='3'>
     <create_default_instance enabled='false'/>
     <single_instance/>
     <dependency name='network' grouping='require_all' restart_on='error' type='service'>
@@ -16,7 +16,7 @@
         <envvar name='PATH' value='/opt/local/bin:/opt/local/sbin:/usr/bin:/usr/sbin:/bin'/>
       </method_environment>
     </method_context>
-    <exec_method name='start' type='method' exec='/opt/local/bin/node /opt/pkgsrc-server/lib/index.js --repository /opt/sphonic/pkgsrc --port 8000 --auth_token s3cure' timeout_seconds='60'>
+    <exec_method name='start' type='method' exec='/opt/local/bin/node /opt/pkgsrc-server/lib/index.js --tmpdir ./tmp --repository /opt/sphonic/pkgsrc --port 8000 --auth_token s3cure' timeout_seconds='60'>
       <method_context>
         <method_environment>
           <envvar name='PATH' value='/opt/local/bin:/opt/local/sbin:/usr/bin:/usr/sbin'/>
