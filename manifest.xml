@@ -10,7 +10,7 @@
     <dependency name='filesystem' grouping='require_all' restart_on='error' type='service'>
       <service_fmri value='svc:/system/filesystem/local'/>
     </dependency>
-    <method_context working_directory='/opt/pkgsrc-server'>
+    <method_context working_directory='/opt/sphonic/pkgsrc-server'>
       <method_credential group='root' user='root'/>
       <method_environment>
         <envvar name='PATH' value='/opt/local/bin:/opt/local/sbin:/usr/bin:/usr/sbin:/bin'/>
