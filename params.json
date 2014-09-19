@@ -1,0 +1,1 @@
+{"name":"Sphonic pksgsrc server","tagline":"","body":"# run it\r\n`node lib/index.js --repository <base directory> --port <port>`\r\n","google":"","note":"Don't delete this file! It's used internally to help with page regeneration."}
