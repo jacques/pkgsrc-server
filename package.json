@@ -8,6 +8,7 @@
     "express-bunyan-logger": "0.1.x",
     "jade": "*",
     "minimist": "*",
+    "mkdirp": "0.5.0",
     "multiparty": "*",
     "sqlite3": "2.2.x"
   }
