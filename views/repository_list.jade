@@ -1,0 +1,10 @@
+doctype html
+
+html
+  head
+    title PkgSrc Repositories
+  body
+    ul
+    each repo in repos
+      li
+        a(href="#{repo.mount}/") #{repo.name}

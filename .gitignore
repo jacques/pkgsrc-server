@@ -1,4 +1,7 @@
 /node_modules/
 /cache.db
+/*_cache.db
 /repo/
+/tmp/*
 /pkg_info
+/config.json

@@ -1,0 +1,21 @@
+{
+  "address": "0.0.0.0",
+  "port": 8197,
+  "tmpdir": "./tmp",
+  "cachedir": "./tmp",
+  "auth_token": "pushhardtogetin",
+  "repos": {
+    "2014Q1": {
+      "name": "2014Q1 x86_64",
+      "mount": "/packages/2014Q1/x86_64",
+      "path": "/data/pkgsrc/2014Q1/x86_64",
+      "rsync_from": "rsync://pkgsrc-eu-ams.joyent.com/pkgsrc-joyent/packages/SmartOS/2014Q1/x86_64/All/"
+    },
+    "2014Q2": {
+      "name": "2014Q2 x86_64",
+      "mount": "/packages/2014Q2/x86_64",
+      "path": "/data/pkgsrc/2014Q2/x86_64",
+      "rsync_from": "rsync://pkgsrc-eu-ams.joyent.com/pkgsrc-joyent/packages/SmartOS/2014Q2/x86_64/All/"
+    }
+  }
+}
