@@ -13,4 +13,7 @@ html
       a(href="pkg_summary.bz2") pkg_summary.bz2
     each item, filename in items
       br
-      a(href="#{filename}") #{filename}
+      if category == 'All'
+        a(href="#{filename}") #{filename}
+      else
+        a(href="../All/#{filename}") #{filename}
