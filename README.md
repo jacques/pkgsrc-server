@@ -11,5 +11,6 @@ This program is released under the Apache 2.0 Licence.
 
 ## How to run it?
 
-`node lib/index.js --repository <base directory> --port <port>`
+`node server.js --config <path to config>`
 
+> Inspect `config.example.json` for the available configuration options
