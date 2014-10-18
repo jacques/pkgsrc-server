@@ -11,7 +11,7 @@ html
       a(href="pkg_summary.gz") pkg_summary.gz
       br
       a(href="pkg_summary.bz2") pkg_summary.bz2
-    each item, filename in items
+    each filename in items
       br
       if category == 'All'
         a(href="#{filename}") #{filename}
