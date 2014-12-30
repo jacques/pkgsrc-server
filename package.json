@@ -1,6 +1,6 @@
 {
   "name": "pkgsrc-server",
-  "version": "0.4.1",
+  "version": "0.4.2",
   "repository": "https://github.com/Sphonic/pkgsrc-server",
   "dependencies": {
     "async": "0.9.x",
