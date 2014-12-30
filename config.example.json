@@ -10,14 +10,18 @@
       "mount": "/packages/SmartOS/2014Q1/x86_64",
       "path": "/data/pkgsrc/2014Q1/x86_64",
       "keep_package_versions": 10,
-      "rsync_from": "rsync://pkgsrc-eu-ams.joyent.com/pkgsrc-joyent/packages/SmartOS/2014Q1/x86_64/All/"
+      "rsync_from": "rsync://pkgsrc-eu-ams.joyent.com/pkgsrc-joyent/packages/SmartOS/2014Q1/x86_64/All/",
+      "http_upstream": "http://pkgsrc-eu-ams.joyent.com/packages/SmartOS/2014Q1/x86_64/All/",
+      "merge_pkg_summary": true
     },
     "2014Q2_x86_64": {
       "name": "2014Q2 x86_64",
       "mount": "/packages/SmartOS/2014Q2/x86_64",
       "path": "/data/pkgsrc/2014Q2/x86_64",
       "keep_package_versions": 10,
-      "rsync_from": "rsync://pkgsrc-eu-ams.joyent.com/pkgsrc-joyent/packages/SmartOS/2014Q2/x86_64/All/"
+      "rsync_from": "rsync://pkgsrc-eu-ams.joyent.com/pkgsrc-joyent/packages/SmartOS/2014Q2/x86_64/All/",
+      "http_upstream": "http://pkgsrc-eu-ams.joyent.com/packages/SmartOS/2014Q2/x86_64/All/",
+      "merge_pkg_summary": true
     }
   }
 }
